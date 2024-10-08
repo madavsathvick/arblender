@@ -1,0 +1,33 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab" active="false" scrollx="19.999999999999773" scrolly="20" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="initSettings" id="BAZ^|m0s:tr#*+V(uA3e" x="-10" y="-10">
+      <field name="LOAD_COMP_ASSETS">TRUE</field>
+      <field name="FULLSCREEN">FALSE</field>
+      <field name="BKG_TRANSPARENCY">TRUE</field>
+      <field name="PRESERVE_DRAW_BUF">FALSE</field>
+      <field name="FADE_ANNOTATIONS">TRUE</field>
+    </block>
+  </tab>
+  <tab name="main" type="CommonTab" active="true" scrollx="20" scrolly="0" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="show" id="P1QVK+zbGDf|In(j6b8~" x="170" y="70">
+      <value name="VALUE">
+        <shadow type="objectList" id="@|:y#DOo?^LoLP=Fz9Ts">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+        <block type="groupList" id="qy0iM}p(wdfX)cc3U*(8">
+          <field name="FIELDNAME">ranbhir_group</field>
+        </block>
+      </value>
+      <next>
+        <block type="hide" id="itUf1NBN0}Z39=L~}wVt">
+          <value name="VALUE">
+            <shadow type="objectList" id="ub(^Bk_%/Sl+!Ym+MQf3">
+              <field name="FIELDNAME">prompt_move_around</field>
+            </shadow>
+          </value>
+        </block>
+      </next>
+    </block>
+  </tab>
+  <editorsettings viewport-x="1029" viewport-y="37" viewport-w="698" viewport-h="417" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

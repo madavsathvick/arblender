@@ -1,0 +1,1891 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab" active="false" scrollx="19.999999999999773" scrolly="9.000000000000114" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="initSettings" id="BAZ^|m0s:tr#*+V(uA3e" x="-10" y="-10">
+      <field name="LOAD_COMP_ASSETS">TRUE</field>
+      <field name="FULLSCREEN">FALSE</field>
+      <field name="BKG_TRANSPARENCY">TRUE</field>
+      <field name="PRESERVE_DRAW_BUF">FALSE</field>
+      <field name="FADE_ANNOTATIONS">TRUE</field>
+    </block>
+  </tab>
+  <tab name="interface" type="CommonTab" active="false" scrollx="179.6894531249999" scrolly="-303.73968505859375" scale="1">
+    <block xmlns="https://developers.google.com/blockly/xml" type="createCSSRule" id="8-dtRoI,.8LIoIsWrY[D" x="50" y="30">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
+      <field name="PARENT">FALSE</field>
+      <value name="CSS_RULE">
+        <shadow type="text" id="A}[E}MzM[P,X{5(={.Hi">
+          <field name="TEXT">.enter-AR-button</field>
+        </shadow>
+      </value>
+      <value name="CSS_RULE_CONT">
+        <shadow type="cssStyleList" id="5oJoLZe`Gr,=ytlYQ#_,">
+          <mutation xmlns="http://www.w3.org/1999/xhtml">
+            <prop name="position" shadowvalue="absolute"></prop>
+            <prop name="display" shadowvalue="block"></prop>
+            <prop name="z-index" shadowvalue="1"></prop>
+            <prop name="background-color" shadowvalue="rgba(255,255,255,0)"></prop>
+            <prop name="width" shadowvalue="200px"></prop>
+            <prop name="height" shadowvalue="50px"></prop>
+            <prop name="left" shadowvalue="auto"></prop>
+            <prop name="bottom" shadowvalue="20px"></prop>
+            <prop name="background-size" shadowvalue="auto"></prop>
+            <prop name="margin-left" shadowvalue="auto"></prop>
+            <prop name="cursor" shadowvalue="default"></prop>
+            <prop name="outline" shadowvalue="none"></prop>
+          </mutation>
+          <value name="PROP0">
+            <shadow type="positionDropdown" id="rbi^/wfWDr+C=~%!_w1v">
+              <field name="TEXT">absolute</field>
+            </shadow>
+          </value>
+          <value name="PROP1">
+            <shadow type="displayDropdown" id="=^ew.dJ.ZYvQ7,~]e|u=">
+              <field name="TEXT">block</field>
+            </shadow>
+          </value>
+          <value name="PROP2">
+            <shadow type="text" id="a3N~2Mr1msQ%S+zK^lpu">
+              <field name="TEXT">1</field>
+            </shadow>
+          </value>
+          <value name="PROP3">
+            <shadow type="text" id=";+,g!EQv[X}F3+B-|_2K">
+              <field name="TEXT">rgba(255,255,255,0)</field>
+            </shadow>
+          </value>
+          <value name="PROP4">
+            <shadow type="text" id="@!?l63h%bs|WIotyAIN/">
+              <field name="TEXT">200px</field>
+            </shadow>
+          </value>
+          <value name="PROP5">
+            <shadow type="text" id="P$(GD-7BcPtWM3:U5~WX">
+              <field name="TEXT">50px</field>
+            </shadow>
+          </value>
+          <value name="PROP6">
+            <shadow type="text" id="~Y30Oq5w%1:`s,hLOn(P">
+              <field name="TEXT">50%</field>
+            </shadow>
+          </value>
+          <value name="PROP7">
+            <shadow type="text" id="lOr$VJ7~:{WCh#6X$GcK">
+              <field name="TEXT">20px</field>
+            </shadow>
+          </value>
+          <value name="PROP8">
+            <shadow type="text" id="YcR{-3oy)3M(;;W^]:rf">
+              <field name="TEXT">100%</field>
+            </shadow>
+          </value>
+          <value name="PROP9">
+            <shadow type="text" id="K7UP:j5kS}_ZbyQ:@@l=">
+              <field name="TEXT">-100px</field>
+            </shadow>
+          </value>
+          <value name="PROP10">
+            <shadow type="cursorDropdown" id="p!@iUH;5rV4@{Op%ql]L">
+              <field name="TEXT">pointer</field>
+            </shadow>
+          </value>
+          <value name="PROP11">
+            <shadow type="text" id="0-;;}qfltlY[RIYTy#dx">
+              <field name="TEXT">0</field>
+            </shadow>
+          </value>
+        </shadow>
+      </value>
+      <next>
+        <block type="addHTMLElement" id="4$RZNB[Y0wSQy0rmz|@1">
+          <field name="ELEMENT">a</field>
+          <field name="MODE">TO</field>
+          <field name="PARENT">FALSE</field>
+          <value name="ID">
+            <shadow type="text" id="oOxYnRWouy.fRZY$CIc!">
+              <field name="TEXT">enter_AR_button</field>
+            </shadow>
+          </value>
+          <value name="TARGET_ID">
+            <shadow type="DOMObjectSelector" id="cg,Lw6cM`{83Z#_APxRx">
+              <field name="DOM_OBJECT">CONTAINER</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="setHTMLElemAttribute" id="DRQS.#81L#BlI?+V6j/8">
+              <field name="ATTRIBUTE">className</field>
+              <field name="PARENT">FALSE</field>
+              <value name="VALUE">
+                <shadow type="text" id="{|8pMk$Hzp9fXflm9.5u">
+                  <field name="TEXT">enter-AR-button</field>
+                </shadow>
+              </value>
+              <value name="ID">
+                <shadow type="text" id="EziK9hL4sP{cHf^?6f~U">
+                  <field name="TEXT">enter_AR_button</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="addHTMLElement" id="-(nbzSEw:rK]WF}aiZbv">
+                  <field name="ELEMENT">img</field>
+                  <field name="MODE">TO</field>
+                  <field name="PARENT">FALSE</field>
+                  <value name="ID">
+                    <shadow type="text" id="Z^C^tV_99IAK3WOU]qM0">
+                      <field name="TEXT">enter_AR_button_img</field>
+                    </shadow>
+                  </value>
+                  <value name="TARGET_ID">
+                    <shadow type="DOMObjectSelector" id="/e|,@0g-=b:UJm($7hsq">
+                      <field name="DOM_OBJECT">CONTAINER</field>
+                    </shadow>
+                    <block type="text" id="15L?o4IiEOQuv{B@#U%X">
+                      <field name="TEXT">enter_AR_button</field>
+                    </block>
+                  </value>
+                  <next>
+                    <block type="setHTMLElemAttribute" id=",pCgf6Q%[l!Sjfr}#s#x">
+                      <field name="ATTRIBUTE">src</field>
+                      <field name="PARENT">FALSE</field>
+                      <value name="VALUE">
+                        <shadow type="text" id="cK~%%om,@MfQ*:cNUmq-">
+                          <field name="TEXT">media/enter_AR_button.png</field>
+                        </shadow>
+                      </value>
+                      <value name="ID">
+                        <shadow type="text" id="FmSQ[tB3|fDZ*OZGjZao">
+                          <field name="TEXT">enter_AR_button_img</field>
+                        </shadow>
+                      </value>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="createCSSRule" id="5OT]M[899RNNW)s}36`J" x="-70" y="570">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
+      <field name="PARENT">FALSE</field>
+      <value name="CSS_RULE">
+        <shadow type="text" id="jePXnTs;G)h9%l5F;+jp">
+          <field name="TEXT">.warning-center</field>
+        </shadow>
+      </value>
+      <value name="CSS_RULE_CONT">
+        <shadow type="cssStyleList" id="nhJ^,qBP;aI!_D|IH9|G">
+          <mutation xmlns="http://www.w3.org/1999/xhtml">
+            <prop name="position" shadowvalue="absolute"></prop>
+            <prop name="width" shadowvalue="100%"></prop>
+            <prop name="height" shadowvalue="50px"></prop>
+            <prop name="top" shadowvalue="50%"></prop>
+            <prop name="margin-top" shadowvalue="-25px"></prop>
+            <prop name="left" shadowvalue="0"></prop>
+            <prop name="display" shadowvalue="block"></prop>
+          </mutation>
+          <value name="PROP0">
+            <shadow type="positionDropdown" id="ijfcwB5PJd=aVUhVIne$">
+              <field name="TEXT">absolute</field>
+            </shadow>
+          </value>
+          <value name="PROP1">
+            <shadow type="text" id="d7$r?0y=j)xX%^]^VQHy">
+              <field name="TEXT">100%</field>
+            </shadow>
+          </value>
+          <value name="PROP2">
+            <shadow type="text" id="-POmL|_;LK!hWNc5nRme">
+              <field name="TEXT">50px</field>
+            </shadow>
+          </value>
+          <value name="PROP3">
+            <shadow type="text" id="e(HkdYa[~8u.x6ZQP7tq">
+              <field name="TEXT">50%</field>
+            </shadow>
+          </value>
+          <value name="PROP4">
+            <shadow type="text" id="O#]K9`n{]ORB93Pd%rF^">
+              <field name="TEXT">-25px</field>
+            </shadow>
+          </value>
+          <value name="PROP5">
+            <shadow type="text" id="AtdkuP4pZBpZ$.5E9R=,">
+              <field name="TEXT">0</field>
+            </shadow>
+          </value>
+          <value name="PROP6">
+            <shadow type="displayDropdown" id="k45PKqXfzzQjO9ps|UTU">
+              <field name="TEXT">none</field>
+            </shadow>
+          </value>
+        </shadow>
+      </value>
+      <next>
+        <block type="addHTMLElement" id="GGV0{^`G/eY_SOdcw*J/">
+          <field name="ELEMENT">div</field>
+          <field name="MODE">TO</field>
+          <field name="PARENT">FALSE</field>
+          <value name="ID">
+            <shadow type="text" id="P_hL|`B^i@}U!V~aR$~l">
+              <field name="TEXT">warning_center</field>
+            </shadow>
+          </value>
+          <value name="TARGET_ID">
+            <shadow type="DOMObjectSelector" id="=wK`QF+5,;Z3-$~##0sn">
+              <field name="DOM_OBJECT">CONTAINER</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="setHTMLElemAttribute" id="pJ!P{Rb-Vo0kwH|j(3%W">
+              <field name="ATTRIBUTE">className</field>
+              <field name="PARENT">FALSE</field>
+              <value name="VALUE">
+                <shadow type="text" id="{x]oPb/9`_R%xN6w;9OG">
+                  <field name="TEXT">warning-center</field>
+                </shadow>
+              </value>
+              <value name="ID">
+                <shadow type="text" id="tubiDzHWAC_!lF9=BsbX">
+                  <field name="TEXT">warning_center</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="createCSSRule" id="KRXU.48}qs.F*^L?;lbM">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
+                  <field name="PARENT">FALSE</field>
+                  <value name="CSS_RULE">
+                    <shadow type="text" id="tMQsHLXfnP%lXA+,~VW0">
+                      <field name="TEXT">.warning-AR-unavailable</field>
+                    </shadow>
+                  </value>
+                  <value name="CSS_RULE_CONT">
+                    <shadow type="cssStyleList" id="lG;Xe=.y!F145y26SWBT">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml">
+                        <prop name="position" shadowvalue="absolute"></prop>
+                        <prop name="width" shadowvalue="240px"></prop>
+                        <prop name="height" shadowvalue="50px"></prop>
+                        <prop name="left" shadowvalue="50%"></prop>
+                        <prop name="margin-left" shadowvalue="-120px"></prop>
+                        <prop name="display" shadowvalue="block"></prop>
+                      </mutation>
+                      <value name="PROP0">
+                        <shadow type="positionDropdown" id="-*4i@GGO#k,6}9W#i$x+">
+                          <field name="TEXT">absolute</field>
+                        </shadow>
+                      </value>
+                      <value name="PROP1">
+                        <shadow type="text" id=")T2l.AORat#/EA.{2xHy">
+                          <field name="TEXT">240px</field>
+                        </shadow>
+                      </value>
+                      <value name="PROP2">
+                        <shadow type="text" id="p3t1WK[u*9$WY2LrLTt?">
+                          <field name="TEXT">50px</field>
+                        </shadow>
+                      </value>
+                      <value name="PROP3">
+                        <shadow type="text" id="u8gqaTY6rNgl)WtX`=B7">
+                          <field name="TEXT">50%</field>
+                        </shadow>
+                      </value>
+                      <value name="PROP4">
+                        <shadow type="text" id="`soRXkDZ6#j_y-$eiXz7">
+                          <field name="TEXT">-120px</field>
+                        </shadow>
+                      </value>
+                      <value name="PROP5">
+                        <shadow type="displayDropdown" id="WpuF,F7?z2MTK]$0Q-*S">
+                          <field name="TEXT">none</field>
+                        </shadow>
+                      </value>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="addHTMLElement" id="%fdFQ_5C(V_E@qEi*vg2">
+                      <field name="ELEMENT">div</field>
+                      <field name="MODE">TO</field>
+                      <field name="PARENT">FALSE</field>
+                      <value name="ID">
+                        <shadow type="text" id="[0qzh53?[r@Z,u%RS+wG">
+                          <field name="TEXT">warning_AR_unavailable</field>
+                        </shadow>
+                      </value>
+                      <value name="TARGET_ID">
+                        <shadow type="DOMObjectSelector" id="AR$d8|+SxyN$~ekQL//g">
+                          <field name="DOM_OBJECT">CONTAINER</field>
+                        </shadow>
+                        <block type="text" id="D*gV0,uKT@E?;6(moNIe">
+                          <field name="TEXT">warning_center</field>
+                        </block>
+                      </value>
+                      <next>
+                        <block type="setHTMLElemAttribute" id="piFiyqK|rMR/,B.Kf_$0">
+                          <field name="ATTRIBUTE">className</field>
+                          <field name="PARENT">FALSE</field>
+                          <value name="VALUE">
+                            <shadow type="text" id="a4LiL^b1}429oY1k*eUJ">
+                              <field name="TEXT">warning-AR-unavailable</field>
+                            </shadow>
+                          </value>
+                          <value name="ID">
+                            <shadow type="text" id="%xBU:+!gz{NOjMB/yk02">
+                              <field name="TEXT">warning_AR_unavailable</field>
+                            </shadow>
+                          </value>
+                          <next>
+                            <block type="addHTMLElement" id="J=pob3BY:h?cQA.Vjm[F">
+                              <field name="ELEMENT">img</field>
+                              <field name="MODE">TO</field>
+                              <field name="PARENT">FALSE</field>
+                              <value name="ID">
+                                <shadow type="text" id="AZ|,y/nA{ivo6]c.1E7P">
+                                  <field name="TEXT">warning_AR_unavailable_img</field>
+                                </shadow>
+                              </value>
+                              <value name="TARGET_ID">
+                                <shadow type="DOMObjectSelector" id="/e|,@0g-=b:UJm($7hsq">
+                                  <field name="DOM_OBJECT">CONTAINER</field>
+                                </shadow>
+                                <block type="text" id="GrfgHtLys}tlLi.Tt)-V">
+                                  <field name="TEXT">warning_AR_unavailable</field>
+                                </block>
+                              </value>
+                              <next>
+                                <block type="setHTMLElemAttribute" id="*2GG^Q3KQ5NZiVzxVb4w">
+                                  <field name="ATTRIBUTE">src</field>
+                                  <field name="PARENT">FALSE</field>
+                                  <value name="VALUE">
+                                    <shadow type="text" id="|)|)J)`cJ|ZJ~I=%m@fH">
+                                      <field name="TEXT">media/warning_AR_unavailable.png</field>
+                                    </shadow>
+                                  </value>
+                                  <value name="ID">
+                                    <shadow type="text" id="7!HcH|c]l|?c#~d2q7*V">
+                                      <field name="TEXT">warning_AR_unavailable_img</field>
+                                    </shadow>
+                                  </value>
+                                  <next>
+                                    <block type="createCSSRule" id="h2IORIxwTpr+Fv@Iw:7!">
+                                      <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
+                                      <field name="PARENT">FALSE</field>
+                                      <value name="CSS_RULE">
+                                        <shadow type="text" id="+GVh=p,l9M]kt*!zO;5q">
+                                          <field name="TEXT">.warning-could-not-enter-AR</field>
+                                        </shadow>
+                                      </value>
+                                      <value name="CSS_RULE_CONT">
+                                        <shadow type="cssStyleList" id="j(vJR8~C#a0j_lPd87l!">
+                                          <mutation xmlns="http://www.w3.org/1999/xhtml">
+                                            <prop name="position" shadowvalue="absolute"></prop>
+                                            <prop name="width" shadowvalue="181px"></prop>
+                                            <prop name="height" shadowvalue="50px"></prop>
+                                            <prop name="left" shadowvalue="50%"></prop>
+                                            <prop name="margin-left" shadowvalue="-90px"></prop>
+                                            <prop name="display" shadowvalue="block"></prop>
+                                          </mutation>
+                                          <value name="PROP0">
+                                            <shadow type="positionDropdown" id="K2KsKqJnlC~(BN.pE3BF">
+                                              <field name="TEXT">absolute</field>
+                                            </shadow>
+                                          </value>
+                                          <value name="PROP1">
+                                            <shadow type="text" id="NR9Vfgp`!h(kwOiXA?HK">
+                                              <field name="TEXT">181px</field>
+                                            </shadow>
+                                          </value>
+                                          <value name="PROP2">
+                                            <shadow type="text" id="+D7=zOvG)^=91]PF{S2]">
+                                              <field name="TEXT">50px</field>
+                                            </shadow>
+                                          </value>
+                                          <value name="PROP3">
+                                            <shadow type="text" id="{8)6r8iva(M^@}%|0[r#">
+                                              <field name="TEXT">50%</field>
+                                            </shadow>
+                                          </value>
+                                          <value name="PROP4">
+                                            <shadow type="text" id="u3$%i7RHCiaC*6]NNn(M">
+                                              <field name="TEXT">-90px</field>
+                                            </shadow>
+                                          </value>
+                                          <value name="PROP5">
+                                            <shadow type="displayDropdown" id="r$0@RU/@x6xIU5v9S_LA">
+                                              <field name="TEXT">none</field>
+                                            </shadow>
+                                          </value>
+                                        </shadow>
+                                      </value>
+                                    </block>
+                                  </next>
+                                </block>
+                              </next>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="addHTMLElement" id="$6Ist:wd;tmR]vB)tU!V" x="-50" y="1350">
+      <field name="ELEMENT">div</field>
+      <field name="MODE">TO</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="vdfRn)1%sS;C1${wux$y">
+          <field name="TEXT">warning_could_not_enter_AR</field>
+        </shadow>
+      </value>
+      <value name="TARGET_ID">
+        <shadow type="DOMObjectSelector" id="AR$d8|+SxyN$~ekQL//g">
+          <field name="DOM_OBJECT">CONTAINER</field>
+        </shadow>
+        <block type="text" id="-dg/hJg=_bK?`O49w~lm">
+          <field name="TEXT">warning_center</field>
+        </block>
+      </value>
+      <next>
+        <block type="setHTMLElemAttribute" id="~3%:Vr=PYiGZ`Xz[7BUa">
+          <field name="ATTRIBUTE">className</field>
+          <field name="PARENT">FALSE</field>
+          <value name="VALUE">
+            <shadow type="text" id="!HMb2%p?(yA8m$P09scK">
+              <field name="TEXT">warning-could-not-enter-AR</field>
+            </shadow>
+          </value>
+          <value name="ID">
+            <shadow type="text" id="4UKOnx5]vq^YHD5kK8_S">
+              <field name="TEXT">warning_could_not_enter_AR</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="addHTMLElement" id="#*~wSD+xDX%k`r|}QVBl">
+              <field name="ELEMENT">img</field>
+              <field name="MODE">TO</field>
+              <field name="PARENT">FALSE</field>
+              <value name="ID">
+                <shadow type="text" id="@x8ynG($6a~}q(ZzJF[@">
+                  <field name="TEXT">warning_could_not_enter_AR_img</field>
+                </shadow>
+              </value>
+              <value name="TARGET_ID">
+                <shadow type="DOMObjectSelector" id="/e|,@0g-=b:UJm($7hsq">
+                  <field name="DOM_OBJECT">CONTAINER</field>
+                </shadow>
+                <block type="text" id="do:aTmL:,Yx}*2u2:h/3">
+                  <field name="TEXT">warning_could_not_enter_AR</field>
+                </block>
+              </value>
+              <next>
+                <block type="setHTMLElemAttribute" id="YuKg}+n#xM5BF,o6v)Qq">
+                  <field name="ATTRIBUTE">src</field>
+                  <field name="PARENT">FALSE</field>
+                  <value name="VALUE">
+                    <shadow type="text" id="z+4Ymv:)52h(~}3eSC~:">
+                      <field name="TEXT">media/warning_could_not_enter_AR.png</field>
+                    </shadow>
+                  </value>
+                  <value name="ID">
+                    <shadow type="text" id="])Db*=+@iJ:l?F!)|zo=">
+                      <field name="TEXT">warning_could_not_enter_AR_img</field>
+                    </shadow>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="createCSSRule" id="|ZA#@6L?+B8OdzgNHdCs" x="-50" y="1630">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
+      <field name="PARENT">FALSE</field>
+      <value name="CSS_RULE">
+        <shadow type="text" id="_8O9E2a[BsWgVs(;e1kn">
+          <field name="TEXT">.info_button</field>
+        </shadow>
+      </value>
+      <value name="CSS_RULE_CONT">
+        <shadow type="cssStyleList" id="Hdkhx4!HDT.lT*;q4:,%">
+          <mutation xmlns="http://www.w3.org/1999/xhtml">
+            <prop name="position" shadowvalue="absolute"></prop>
+            <prop name="width" shadowvalue="50px"></prop>
+            <prop name="height" shadowvalue="50px"></prop>
+            <prop name="z-index" shadowvalue="1"></prop>
+            <prop name="top" shadowvalue="10px"></prop>
+            <prop name="right" shadowvalue="10px"></prop>
+            <prop name="display" shadowvalue="block"></prop>
+            <prop name="overflow" shadowvalue="hidden"></prop>
+            <prop name="border-style" shadowvalue="none"></prop>
+            <prop name="border-color" shadowvalue="#000000"></prop>
+            <prop name="cursor" shadowvalue="default"></prop>
+          </mutation>
+          <value name="PROP0">
+            <shadow type="positionDropdown" id="wyh*Qnnt%SGsI(aRF]NY">
+              <field name="TEXT">absolute</field>
+            </shadow>
+          </value>
+          <value name="PROP1">
+            <shadow type="text" id="DJxpWBDb+ZepdFM$GFSJ">
+              <field name="TEXT">50px</field>
+            </shadow>
+          </value>
+          <value name="PROP2">
+            <shadow type="text" id="h/Ki(B2_dPNbqhys0J9?">
+              <field name="TEXT">50px</field>
+            </shadow>
+          </value>
+          <value name="PROP3">
+            <shadow type="text" id="qI/J|/aQ?GV3vemL,Z]m">
+              <field name="TEXT">1</field>
+            </shadow>
+          </value>
+          <value name="PROP4">
+            <shadow type="text" id="lv*M*xB/:g9pSDnubE@c">
+              <field name="TEXT">10px</field>
+            </shadow>
+          </value>
+          <value name="PROP5">
+            <shadow type="text" id="sb2t0U7gWL65!]M@pqBh">
+              <field name="TEXT">10px</field>
+            </shadow>
+          </value>
+          <value name="PROP6">
+            <shadow type="displayDropdown" id="_wEyeNwzny3R4^C-FH~L">
+              <field name="TEXT">block</field>
+            </shadow>
+          </value>
+          <value name="PROP7">
+            <shadow type="overflowDropdown" id=":Agm`sJ)GS,SG.EoK:[4">
+              <field name="TEXT">hidden</field>
+            </shadow>
+          </value>
+          <value name="PROP8">
+            <shadow type="borderStyleDropdown" id="/d~L21(veEF4~-?EiT~N">
+              <field name="TEXT">none</field>
+            </shadow>
+          </value>
+          <value name="PROP9">
+            <shadow type="text" id="3C7Ihz#Bb;9Av?q/RiQY">
+              <field name="TEXT">#000000</field>
+            </shadow>
+          </value>
+          <value name="PROP10">
+            <shadow type="cursorDropdown" id="a9W1-tOyb(vJ2U/@(oem">
+              <field name="TEXT">pointer</field>
+            </shadow>
+          </value>
+        </shadow>
+      </value>
+      <next>
+        <block type="addHTMLElement" id="C(YVmo~$@L.2mEM3Z{r%">
+          <field name="ELEMENT">a</field>
+          <field name="MODE">TO</field>
+          <field name="PARENT">FALSE</field>
+          <value name="ID">
+            <shadow type="text" id="n@kW%hoHFqMm}OU6n5**">
+              <field name="TEXT">info_button</field>
+            </shadow>
+          </value>
+          <value name="TARGET_ID">
+            <shadow type="DOMObjectSelector" id="9mYH,V3?;ivxn{6{5Dgu">
+              <field name="DOM_OBJECT">CONTAINER</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="setHTMLElemAttribute" id="Z3.4r(o%UJTE04-w|D?G">
+              <field name="ATTRIBUTE">className</field>
+              <field name="PARENT">FALSE</field>
+              <value name="VALUE">
+                <shadow type="text" id="%6G9#+sR)ud9K!`Q@xQy">
+                  <field name="TEXT">info_button</field>
+                </shadow>
+              </value>
+              <value name="ID">
+                <shadow type="text" id="xhE,NO?T$B;i(Kto]g2a">
+                  <field name="TEXT">info_button</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="addHTMLElement" id="(VSJT?bTQDG43tT|74%!">
+                  <field name="ELEMENT">img</field>
+                  <field name="MODE">TO</field>
+                  <field name="PARENT">FALSE</field>
+                  <value name="ID">
+                    <shadow type="text" id="kICeC=Vp5BL.}xD1%X:%">
+                      <field name="TEXT">info_button_img</field>
+                    </shadow>
+                  </value>
+                  <value name="TARGET_ID">
+                    <shadow type="DOMObjectSelector" id="DloytN4i#}5c5(E.7vu!">
+                      <field name="DOM_OBJECT">CONTAINER</field>
+                    </shadow>
+                    <block type="text" id="v2iNt]]ihy7)XoejsHu0">
+                      <field name="TEXT">info_button</field>
+                    </block>
+                  </value>
+                  <next>
+                    <block type="setHTMLElemAttribute" id="Y?}}h69r}2uo177%T0C3">
+                      <field name="ATTRIBUTE">src</field>
+                      <field name="PARENT">FALSE</field>
+                      <value name="VALUE">
+                        <shadow type="text" id="B%OYjvjMP5jq+%phBPRu">
+                          <field name="TEXT">media/info.png</field>
+                        </shadow>
+                      </value>
+                      <value name="ID">
+                        <shadow type="text" id="O|jTyhQk)b~z}XPLcgfP">
+                          <field name="TEXT">info_button_img</field>
+                        </shadow>
+                      </value>
+                      <next>
+                        <block type="setHTMLElemAttribute" id=":@gA4A4;GrR|-AV-|bOC">
+                          <field name="ATTRIBUTE">href</field>
+                          <field name="PARENT">FALSE</field>
+                          <value name="VALUE">
+                            <shadow type="text" id=")ig2u6k$WZrlp*7Q=pQ,">
+                              <field name="TEXT">https://www.sathvick.com</field>
+                            </shadow>
+                          </value>
+                          <value name="ID">
+                            <shadow type="text" id="O?#{kdDfiiJFCc#IH$M~">
+                              <field name="TEXT">info_button</field>
+                            </shadow>
+                          </value>
+                          <next>
+                            <block type="setHTMLElemAttribute" id="/W-v(-R18[e0]LgMwGE%">
+                              <field name="ATTRIBUTE">target</field>
+                              <field name="PARENT">FALSE</field>
+                              <value name="VALUE">
+                                <shadow type="text" id="48Sk[TE5x@1J`I|Onyun">
+                                  <field name="TEXT">_blank</field>
+                                </shadow>
+                              </value>
+                              <value name="ID">
+                                <shadow type="text" id="o^OB0dMUQI=bxc7DGPq4">
+                                  <field name="TEXT">info_button</field>
+                                </shadow>
+                              </value>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+  </tab>
+  <tab name="main" type="CommonTab" active="false" scrollx="110.15609369420349" scrolly="-29.504602067905807" scale="0.9834867355968606">
+    <block xmlns="https://developers.google.com/blockly/xml" type="hide" id="@kAZV9]=[Il6myaCcsi:" x="170" y="30">
+      <value name="VALUE">
+        <shadow type="objectList" id="*(7#W:^_F|,rW6S{gejV">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+        <block type="groupList" id="%y1wfr||qrC?-Ei|xhWB">
+          <field name="FIELDNAME">indicator_group</field>
+        </block>
+      </value>
+      <next>
+        <block type="show" id="P1QVK+zbGDf|In(j6b8~">
+          <value name="VALUE">
+            <shadow type="objectList" id="@|:y#DOo?^LoLP=Fz9Ts">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="groupList" id="qy0iM}p(wdfX)cc3U*(8">
+              <field name="FIELDNAME">ranbhir_group</field>
+            </block>
+          </value>
+          <next>
+            <block type="hide" id="itUf1NBN0}Z39=L~}wVt">
+              <value name="VALUE">
+                <shadow type="objectList" id="ub(^Bk_%/Sl+!Ym+MQf3">
+                  <field name="FIELDNAME">prompt_move_around</field>
+                </shadow>
+                <block type="lists_create_with" id="u$emNxy3PGpbZ4]6#]W=">
+                  <mutation items="7"></mutation>
+                  <value name="ADD0">
+                    <block type="objectList" id="vd+-k@6+Jv[LU=hXbI)b">
+                      <field name="FIELDNAME">drag_move</field>
+                    </block>
+                  </value>
+                  <value name="ADD1">
+                    <block type="objectList" id="%oX^3W,utyt-q$z/tnZx">
+                      <field name="FIELDNAME">drag_scale</field>
+                    </block>
+                  </value>
+                  <value name="ADD2">
+                    <block type="objectList" id="Pnv8yrBklv-}{G$qMhgC">
+                      <field name="FIELDNAME">drag_rotate</field>
+                    </block>
+                  </value>
+                  <value name="ADD3">
+                    <block type="objectList" id="K5ZM2C-61c08mxiz,`T[">
+                      <field name="FIELDNAME">scale_percentage</field>
+                    </block>
+                  </value>
+                  <value name="ADD4">
+                    <block type="objectList" id="/g|%WeICn3wUzS!.E!z%">
+                      <field name="FIELDNAME">prompt_move_around</field>
+                    </block>
+                  </value>
+                  <value name="ADD5">
+                    <block type="objectList" id="IatQB!j#jN+w+,Ibuzil">
+                      <field name="FIELDNAME">edit_button</field>
+                    </block>
+                  </value>
+                  <value name="ADD6">
+                    <block type="objectList" id="e`it_a)isJW}H?$!Q7Kl">
+                      <field name="FIELDNAME">ready_button</field>
+                    </block>
+                  </value>
+                </block>
+              </value>
+              <next>
+                <block type="playAnimationAdv" id="eV8nu{KE,YtEP+UE1_RL">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="false"></mutation>
+                  <field name="REVERSED">FALSE</field>
+                  <field name="LOOP">LoopRepeat</field>
+                  <value name="VALUE">
+                    <shadow type="animationList" id="=i^Epa$r:_t5APf-~s68">
+                      <field name="FIELDNAME">Armature</field>
+                    </shadow>
+                  </value>
+                  <value name="FROM">
+                    <shadow type="math_number" id="vC+f3Ux4T33#(}*P_^%C">
+                      <field name="NUM">0</field>
+                    </shadow>
+                  </value>
+                  <value name="TO">
+                    <shadow type="math_number" id="Ig+TOAeBFm_F/uv?P5Hs">
+                      <field name="NUM">80</field>
+                    </shadow>
+                  </value>
+                  <value name="SPEED">
+                    <shadow type="math_number" id="{WMQcsERau!VHd4LWFUO">
+                      <field name="NUM">1</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="whenClicked" id="NpNYS,{NdWd/nW_R@bz@" inline="false">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+                      <field name="X_RAY">FALSE</field>
+                      <field name="DOUBLE_CLICK">FALSE</field>
+                      <field name="LEFT_BUTTON">TRUE</field>
+                      <field name="MIDDLE_BUTTON">TRUE</field>
+                      <field name="RIGHT_BUTTON">TRUE</field>
+                      <value name="VALUE">
+                        <shadow type="objectList" id="VOo@T/,0~@_g?@Jo%}@~">
+                          <field name="FIELDNAME">ranbhir_mesh</field>
+                        </shadow>
+                      </value>
+                      <statement name="DO">
+                        <block type="stopAnimation" id="2#HtP{-9csjKy(};`4U8">
+                          <value name="VALUE">
+                            <shadow type="animationList" id="x[|MV7Pom|C?i|h_GX@g">
+                              <field name="FIELDNAME">Armature</field>
+                            </shadow>
+                          </value>
+                          <next>
+                            <block type="playAnimationAdv" id="l8%IgIjSrlFN{.TXs}xz">
+                              <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+                              <field name="REVERSED">FALSE</field>
+                              <field name="LOOP">LoopOnce</field>
+                              <value name="VALUE">
+                                <shadow type="animationList" id="kpa2i=f/^,~.qHCR!%MU">
+                                  <field name="FIELDNAME">Armature</field>
+                                </shadow>
+                              </value>
+                              <value name="FROM">
+                                <shadow type="math_number" id="YTd=^I4SVAX^M-^AvoN@">
+                                  <field name="NUM">81</field>
+                                </shadow>
+                              </value>
+                              <value name="TO">
+                                <shadow type="math_number" id="mx1{u(zFdVo?w+:j@}gE">
+                                  <field name="NUM">157</field>
+                                </shadow>
+                              </value>
+                              <value name="SPEED">
+                                <shadow type="math_number" id="N/.-Jha{jm18zMi5*KC,">
+                                  <field name="NUM">1</field>
+                                </shadow>
+                              </value>
+                              <statement name="DO">
+                                <block type="playAnimationAdv" id=",G0FXMZh!2AYN|_HL[Rz">
+                                  <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="false"></mutation>
+                                  <field name="REVERSED">FALSE</field>
+                                  <field name="LOOP">LoopRepeat</field>
+                                  <value name="VALUE">
+                                    <shadow type="animationList" id="U@bPBdnyI$DyCq2W_JA}">
+                                      <field name="FIELDNAME">Armature</field>
+                                    </shadow>
+                                  </value>
+                                  <value name="FROM">
+                                    <shadow type="math_number" id="M^|[L,qAM[y]^YZ2XS88">
+                                      <field name="NUM">0</field>
+                                    </shadow>
+                                  </value>
+                                  <value name="TO">
+                                    <shadow type="math_number" id="hP-myVc|s@H#^k,/=mIA">
+                                      <field name="NUM">80</field>
+                                    </shadow>
+                                  </value>
+                                  <value name="SPEED">
+                                    <shadow type="math_number" id="yrRk.Mdj99_}^=4G=h!:">
+                                      <field name="NUM">1</field>
+                                    </shadow>
+                                  </value>
+                                </block>
+                              </statement>
+                              <next>
+                                <block type="playSound" id="_m3kM)a+Lk#Tx6nKJW]M">
+                                  <field name="LOOP">FALSE</field>
+                                  <value name="VALUE">
+                                    <block type="loadSoundAdv" id="lZU3IvfLANG1wi2g)qW{">
+                                      <field name="TYPE">SOUND</field>
+                                      <value name="URL">
+                                        <shadow type="text" id="H(Gd1FV.?|{fsKgNiW;*">
+                                          <field name="TEXT">sounds/hello.mp3</field>
+                                        </shadow>
+                                      </value>
+                                    </block>
+                                  </value>
+                                </block>
+                              </next>
+                            </block>
+                          </next>
+                        </block>
+                      </statement>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+  </tab>
+  <tab name="ARVR" type="CommonTab" active="true" scrollx="-34.316101074218636" scrolly="-1125" scale="1">
+    <variables xmlns="https://developers.google.com/blockly/xml">
+      <variable id=".sF5MDQu8PF^c]5K~da7">mode</variable>
+      <variable id=":`d+Zbw{OwHGUi-vXPx:">id</variable>
+    </variables>
+    <block xmlns="https://developers.google.com/blockly/xml" type="variables_set" id="}E@j+NgQlH*$YL{KgTNR" x="110" y="-10">
+      <field name="VAR" id=".sF5MDQu8PF^c]5K~da7">mode</field>
+      <value name="VALUE">
+        <block type="text" id="7aCPRB-!3}|3$x_mb~1c">
+          <field name="TEXT">indicator</field>
+        </block>
+      </value>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="checkARMode" id="VpH#%C(5=[)dxVXhAy3c" x="90" y="70">
+      <statement name="DO_AVAIL">
+        <block type="eventHTMLElem" id="FLh+;K=`)Ikj)`1:p)[H">
+          <field name="EVENT">pointerup</field>
+          <field name="PARENT">FALSE</field>
+          <value name="ID">
+            <shadow type="text" id="ot5m58@[tTS4jM}ur9T}">
+              <field name="TEXT">myElem</field>
+            </shadow>
+            <block type="text" id="n|;3f:L338sj}YQ@K/#h">
+              <field name="TEXT">enter_AR_button</field>
+            </block>
+          </value>
+          <statement name="DO">
+            <block type="enterARMode" id="JNE9:D;=Jl6NZ[!XcmwO">
+              <field name="REF_SPACE">ORIGIN</field>
+              <field name="ALLOW_HTML">TRUE</field>
+              <statement name="DO_ENTER">
+                <block type="hide" id="L=#UT6$?eyFh_pC9,WE.">
+                  <value name="VALUE">
+                    <shadow type="objectList" id="rdy95+8~FYO=`%/mMiI_">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                    <block type="groupList" id="`uV]*Y+hgX/A,x-JgD9)">
+                      <field name="FIELDNAME">ranbhir_group</field>
+                    </block>
+                  </value>
+                  <next>
+                    <block type="show" id="wXrO$d!^`m(W#]}Ugtd(">
+                      <value name="VALUE">
+                        <shadow type="objectList" id="d@J@Ljm}W``/m.dlh63]">
+                          <field name="FIELDNAME">prompt_move_around</field>
+                        </shadow>
+                      </value>
+                      <next>
+                        <block type="arHitTest" id=";mjx98A:!(6t$8G716]|">
+                          <value name="SMOOTH">
+                            <shadow type="math_number" id="?_6rO|mliSUkv#2WwPrE">
+                              <field name="NUM">0.7</field>
+                            </shadow>
+                          </value>
+                          <statement name="DO_HIT">
+                            <block type="controls_if" id="8,GSuMKYWmcwFvGRHf90">
+                              <value name="IF0">
+                                <block type="logic_compare" id="JLw=OM{`puZZS-x7H[i}">
+                                  <field name="OP">EQ</field>
+                                  <value name="A">
+                                    <block type="variables_get" id="]e[~=5$tI{.$p6VbV3$M">
+                                      <field name="VAR" id=".sF5MDQu8PF^c]5K~da7">mode</field>
+                                    </block>
+                                  </value>
+                                  <value name="B">
+                                    <block type="text" id="b_=)__b$bRz$YQhb=z49">
+                                      <field name="TEXT">indicator</field>
+                                    </block>
+                                  </value>
+                                </block>
+                              </value>
+                              <statement name="DO0">
+                                <block type="show" id="|ppkRq5)/Nf:Z;oC$;~~">
+                                  <value name="VALUE">
+                                    <shadow type="objectList" id="xfA95lhEeJPN#cC]94{v">
+                                      <field name="FIELDNAME">prompt_move_around</field>
+                                    </shadow>
+                                    <block type="groupList" id="W_+|Sw,*s%q*OT9C_UEe">
+                                      <field name="FIELDNAME">indicator_group</field>
+                                    </block>
+                                  </value>
+                                  <next>
+                                    <block type="setObjTransform" id="$zmOZPQ4/2@XyZxNvdJ=">
+                                      <mutation xmlns="http://www.w3.org/1999/xhtml" usevectorslot="false" useworldspace="false"></mutation>
+                                      <field name="MODE">position</field>
+                                      <field name="OFFSET">FALSE</field>
+                                      <value name="TARGETOBJ">
+                                        <shadow type="objectList" id="1``dZ-bzUZw#.T~i$r=@">
+                                          <field name="FIELDNAME">indicator_invis_plane</field>
+                                        </shadow>
+                                      </value>
+                                      <value name="X">
+                                        <block type="arHitPoint" id="X%Oj[iq{?,u}TS)_o5!n">
+                                          <field name="COORD">x</field>
+                                        </block>
+                                      </value>
+                                      <value name="Y">
+                                        <block type="arHitPoint" id="CnaMC6M.X90_K{H$WIks">
+                                          <field name="COORD">y</field>
+                                        </block>
+                                      </value>
+                                      <value name="Z">
+                                        <block type="arHitPoint" id="P$omtrb/hbw,cHUR)^5A">
+                                          <field name="COORD">z</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </next>
+                                </block>
+                              </statement>
+                              <next>
+                                <block type="hide" id="=V?LefXXqaKn0~VAM#2%">
+                                  <value name="VALUE">
+                                    <shadow type="objectList" id="rdy95+8~FYO=`%/mMiI_">
+                                      <field name="FIELDNAME">prompt_move_around</field>
+                                    </shadow>
+                                  </value>
+                                </block>
+                              </next>
+                            </block>
+                          </statement>
+                          <statement name="DO_MISS">
+                            <block type="hide" id="!jYekefG|u{0m1`$7_,X">
+                              <value name="VALUE">
+                                <shadow type="objectList" id="]#]({@]G`,g-#h`Z7M3K">
+                                  <field name="FIELDNAME">prompt_move_around</field>
+                                </shadow>
+                                <block type="groupList" id="munW$zYHH:toE`!ZFYWY">
+                                  <field name="FIELDNAME">indicator_group</field>
+                                </block>
+                              </value>
+                            </block>
+                          </statement>
+                          <next>
+                            <block type="setHTMLElemStyle" id="BKwun.R-X)?t6Oj8q|}%">
+                              <field name="PROPERTY">display</field>
+                              <field name="PARENT">FALSE</field>
+                              <value name="VALUE">
+                                <shadow type="displayDropdown" id="}z9!lrDFM;$S/u4ddnHH">
+                                  <field name="TEXT">none</field>
+                                </shadow>
+                              </value>
+                              <value name="ID">
+                                <shadow type="text" id="064]16`Q7fhT^E0HQOxc">
+                                  <field name="TEXT">enter_AR_button</field>
+                                </shadow>
+                              </value>
+                              <next>
+                                <block type="show" id="|yY4T6cRTU]m0Bm_YG;9">
+                                  <value name="VALUE">
+                                    <shadow type="objectList" id="?(_3~==_:R}tgkGlO??P">
+                                      <field name="FIELDNAME">edit_button</field>
+                                    </shadow>
+                                  </value>
+                                  <next>
+                                    <block type="hide" id="$e9p`7f9kdZvif`x2G2O">
+                                      <value name="VALUE">
+                                        <shadow type="objectList" id="S,.qRiW6,z_qVJI{BgQS">
+                                          <field name="FIELDNAME">&lt;none&gt;</field>
+                                        </shadow>
+                                        <block type="lists_create_with" id="48*37EaCc3R6S2?^kS*1">
+                                          <mutation items="5"></mutation>
+                                          <value name="ADD0">
+                                            <block type="objectList" id=".+(KDt|jHQ4zRLgYFTJU">
+                                              <field name="FIELDNAME">drag_move</field>
+                                            </block>
+                                          </value>
+                                          <value name="ADD1">
+                                            <block type="objectList" id="!N-Y?xPpzwyV6gN+M,tf">
+                                              <field name="FIELDNAME">drag_scale</field>
+                                            </block>
+                                          </value>
+                                          <value name="ADD2">
+                                            <block type="objectList" id=":MS621GW^kLVyu^Bo2vc">
+                                              <field name="FIELDNAME">drag_rotate</field>
+                                            </block>
+                                          </value>
+                                          <value name="ADD3">
+                                            <block type="objectList" id="?fiH)b9m9xA?6A/X+S;.">
+                                              <field name="FIELDNAME">scale_percentage</field>
+                                            </block>
+                                          </value>
+                                          <value name="ADD4">
+                                            <block type="objectList" id="hsmuerxtr#n:~v^iL(Iq">
+                                              <field name="FIELDNAME">ready_button</field>
+                                            </block>
+                                          </value>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </next>
+                                </block>
+                              </next>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </statement>
+              <statement name="DO_EXIT">
+                <block type="show" id="),m(0!z{/A,Jy2Tb.M+W">
+                  <value name="VALUE">
+                    <shadow type="objectList" id="@|:y#DOo?^LoLP=Fz9Ts">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                    <block type="groupList" id="W@h4dBfs9?/?+9[}Xm_-">
+                      <field name="FIELDNAME">ranbhir_group</field>
+                    </block>
+                  </value>
+                  <next>
+                    <block type="setObjTransform" id="qU/AZJCpd`$6j`@^RsW{">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml" usevectorslot="false" useworldspace="false"></mutation>
+                      <field name="MODE">position</field>
+                      <field name="OFFSET">FALSE</field>
+                      <value name="TARGETOBJ">
+                        <shadow type="objectList" id="*BC43Rt6C*?#(N/N.`94">
+                          <field name="FIELDNAME">Armature</field>
+                        </shadow>
+                      </value>
+                      <value name="X">
+                        <block type="math_number" id="/$AZ?mLz[j!f,FQ()Jb%">
+                          <field name="NUM">0</field>
+                        </block>
+                      </value>
+                      <value name="Y">
+                        <block type="math_number" id="1o/_5!wFG5XZ(czDwl4~">
+                          <field name="NUM">0</field>
+                        </block>
+                      </value>
+                      <value name="Z">
+                        <block type="math_number" id="/iX1c2xs3hw--qqoKmwf">
+                          <field name="NUM">0</field>
+                        </block>
+                      </value>
+                      <next>
+                        <block type="hide" id="ES-@CAn/szoobElS.#5_">
+                          <value name="VALUE">
+                            <shadow type="objectList" id="*(7#W:^_F|,rW6S{gejV">
+                              <field name="FIELDNAME">&lt;none&gt;</field>
+                            </shadow>
+                            <block type="groupList" id="GR|jN.Dy~e]RNtaV:a{.">
+                              <field name="FIELDNAME">indicator_group</field>
+                            </block>
+                          </value>
+                          <next>
+                            <block type="hide" id="$_iOA1qbU:Y@!TkqyDzI">
+                              <value name="VALUE">
+                                <shadow type="objectList" id="ub(^Bk_%/Sl+!Ym+MQf3">
+                                  <field name="FIELDNAME">prompt_move_around</field>
+                                </shadow>
+                                <block type="lists_create_with" id=";Mw;i;qCqT/^1xOH0Gp#">
+                                  <mutation items="7"></mutation>
+                                  <value name="ADD0">
+                                    <block type="objectList" id="N}+odYz_aL_`*j{yycF`">
+                                      <field name="FIELDNAME">drag_move</field>
+                                    </block>
+                                  </value>
+                                  <value name="ADD1">
+                                    <block type="objectList" id="EZ!SJfc?O`R)UpX`Q,d5">
+                                      <field name="FIELDNAME">drag_scale</field>
+                                    </block>
+                                  </value>
+                                  <value name="ADD2">
+                                    <block type="objectList" id="zH%)rbfdotDi7!Bdwjnd">
+                                      <field name="FIELDNAME">drag_rotate</field>
+                                    </block>
+                                  </value>
+                                  <value name="ADD3">
+                                    <block type="objectList" id="a`p%(Z4?{9)iu}c)C~b4">
+                                      <field name="FIELDNAME">scale_percentage</field>
+                                    </block>
+                                  </value>
+                                  <value name="ADD4">
+                                    <block type="objectList" id="oR7za;AgoRgTi$wrMa6k">
+                                      <field name="FIELDNAME">prompt_move_around</field>
+                                    </block>
+                                  </value>
+                                  <value name="ADD5">
+                                    <block type="objectList" id="jXYEuyh68G[19(.]Ew}Q">
+                                      <field name="FIELDNAME">edit_button</field>
+                                    </block>
+                                  </value>
+                                  <value name="ADD6">
+                                    <block type="objectList" id=",F=R@.N,c}YFN?:=JwKe">
+                                      <field name="FIELDNAME">ready_button</field>
+                                    </block>
+                                  </value>
+                                </block>
+                              </value>
+                              <next>
+                                <block type="setObjTransform" id="wkh%@lJqhl]at%cm:oc[">
+                                  <mutation xmlns="http://www.w3.org/1999/xhtml" usevectorslot="true" useworldspace="false"></mutation>
+                                  <field name="MODE">scale</field>
+                                  <field name="OFFSET">FALSE</field>
+                                  <value name="TARGETOBJ">
+                                    <shadow type="objectList" id=".)v*fD1$:oTiSSPM]dZL">
+                                      <field name="FIELDNAME">Armature</field>
+                                    </shadow>
+                                  </value>
+                                  <value name="X">
+                                    <block type="math_number" id="VhrE$NBw$Wf7_DEjYTnS">
+                                      <field name="NUM">1</field>
+                                    </block>
+                                  </value>
+                                  <value name="Y">
+                                    <block type="math_number" id="c_).S`~[2S9V@2nPJez^">
+                                      <field name="NUM">1</field>
+                                    </block>
+                                  </value>
+                                  <value name="Z">
+                                    <block type="math_number" id=",qxt}$|1jzcY@EC)R2_d">
+                                      <field name="NUM">1</field>
+                                    </block>
+                                  </value>
+                                  <value name="USE_VECTOR">
+                                    <block type="createVector" id="-8Vx?1p~m`lnhdE21j_(">
+                                      <value name="X">
+                                        <shadow type="math_number" id="*-d*/)lu,Tz1z=~h^e*3">
+                                          <field name="NUM">0</field>
+                                        </shadow>
+                                      </value>
+                                      <value name="Y">
+                                        <shadow type="math_number" id="~Mo)xkjT)BE=Ku#]m0kR">
+                                          <field name="NUM">0</field>
+                                        </shadow>
+                                      </value>
+                                      <value name="Z">
+                                        <shadow type="math_number" id="I@~=#bXINZ;GkN~BD!6(">
+                                          <field name="NUM">0</field>
+                                        </shadow>
+                                      </value>
+                                    </block>
+                                  </value>
+                                  <next>
+                                    <block type="updateTextObject" id="0OHE{MB*#kNnr_x+`3ny">
+                                      <value name="VALUE1">
+                                        <shadow type="objectList" id="JA.tK-p!oyb#lcEI9Ke.">
+                                          <field name="FIELDNAME">scale_percentage</field>
+                                        </shadow>
+                                      </value>
+                                      <value name="VALUE2">
+                                        <shadow type="text" id="@$xZ%_1^U7{(F*u-(jIi">
+                                          <field name="TEXT">100%</field>
+                                        </shadow>
+                                      </value>
+                                    </block>
+                                  </next>
+                                </block>
+                              </next>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </statement>
+              <statement name="DO_UNAVAIL">
+                <block type="procedures_callnoreturn" id="zp_ZB6Tr?5`QR/1qh1U(">
+                  <mutation name="show warning">
+                    <arg name="id"></arg>
+                  </mutation>
+                  <value name="ARG0">
+                    <block type="text" id="l{LCu[g*1?cOT1~e(?@A">
+                      <field name="TEXT">warning_could_not_enter_AR</field>
+                    </block>
+                  </value>
+                </block>
+              </statement>
+            </block>
+          </statement>
+        </block>
+      </statement>
+      <statement name="DO_USDZ">
+        <block type="setHTMLElemAttribute" id="ISvMWv}-hl,S9NYD:zD=">
+          <field name="ATTRIBUTE">href</field>
+          <field name="PARENT">FALSE</field>
+          <value name="VALUE">
+            <shadow type="text" id="NHOlliVV#8z;:/zh(/tP">
+              <field name="TEXT">https://www.soft8soft.com</field>
+            </shadow>
+            <block type="exportToUSDZ" id=";j!rr;akep-T8-T1HnDI">
+              <value name="OBJ_NAME">
+                <shadow type="objectList" id="6nAi!/C6F{:s5/8qcjqS">
+                  <field name="FIELDNAME">ranbhir_mesh</field>
+                </shadow>
+              </value>
+            </block>
+          </value>
+          <value name="ID">
+            <shadow type="text" id="USA]mFMf4jRf.J^jxx*0">
+              <field name="TEXT">enter_AR_button</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="setHTMLElemAttribute" id="Z=F955Isy]D+Ly!fGlXw">
+              <field name="ATTRIBUTE">rel</field>
+              <field name="PARENT">FALSE</field>
+              <value name="VALUE">
+                <shadow type="text" id="{aVUNQ-Ax.f8zG#o[nJA">
+                  <field name="TEXT">ar</field>
+                </shadow>
+              </value>
+              <value name="ID">
+                <shadow type="text" id="G$.z@U10dLKwDwHqXHYM">
+                  <field name="TEXT">enter_AR_button</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="setHTMLElemAttribute" id="qZt7[@b!=|IMG(=M$Vj4">
+                  <field name="ATTRIBUTE">download</field>
+                  <field name="PARENT">FALSE</field>
+                  <value name="VALUE">
+                    <shadow type="text" id="@9K4dro}JlBd(usqw`ea">
+                      <field name="TEXT">ranbhir.usdz</field>
+                    </shadow>
+                  </value>
+                  <value name="ID">
+                    <shadow type="text" id="lXuMH@hN;{-hACr~~%g0">
+                      <field name="TEXT">enter_AR_button</field>
+                    </shadow>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </statement>
+      <statement name="DO_UNAVAIL">
+        <block type="eventHTMLElem" id="IY9aG4f:CZo~PsLr5Xlt">
+          <field name="EVENT">pointerup</field>
+          <field name="PARENT">FALSE</field>
+          <value name="ID">
+            <shadow type="text" id="S)+]/hum}KE)mFocV%+:">
+              <field name="TEXT">enter_AR_button</field>
+            </shadow>
+          </value>
+          <statement name="DO">
+            <block type="procedures_callnoreturn" id="Fpa4LYlyuo^tzeca{00F">
+              <mutation name="show warning">
+                <arg name="id"></arg>
+              </mutation>
+              <value name="ARG0">
+                <block type="text" id="r=4%JR}v=!?Dk[y-:%2{">
+                  <field name="TEXT">warning_AR_unavailable</field>
+                </block>
+              </value>
+            </block>
+          </statement>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="groupList" id="n~79W]cJgKXH0k|5u~JZ" x="470" y="218">
+      <field name="FIELDNAME">ranbhir_group</field>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="ZRm^4C--_/6KHv~i:[T:" inline="false" x="950" y="1550">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="ZzQf[X;rct7@Ucs9ZK9,">
+          <field name="FIELDNAME">indicator_invis_plane</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="show" id="OpTC-zz7IF=E0=iC|%86">
+          <value name="VALUE">
+            <shadow type="objectList" id="ciq.gR(y;rZFHESU!`dp">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="groupList" id="E9y2BH[Xhr[f/8U}%xTj">
+              <field name="FIELDNAME">ranbhir_group</field>
+            </block>
+          </value>
+          <next>
+            <block type="hide" id=",!5nae=osUI``f0-%,6F">
+              <value name="VALUE">
+                <shadow type="objectList" id="BAOwE*9yDI{h~*7x=CFQ">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="groupList" id="4F`.@JK~x;^[va;hJ)8R">
+                  <field name="FIELDNAME">indicator_group</field>
+                </block>
+              </value>
+              <next>
+                <block type="setObjTransform" id="%_o_zBA=]hr_B!+9+#v[">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" usevectorslot="false" useworldspace="false"></mutation>
+                  <field name="MODE">position</field>
+                  <field name="OFFSET">FALSE</field>
+                  <value name="TARGETOBJ">
+                    <shadow type="objectList" id="Z~bKws*59}bX_HR44P60">
+                      <field name="FIELDNAME">Armature</field>
+                    </shadow>
+                  </value>
+                  <value name="X">
+                    <block type="arHitPoint" id="K7w,)XhIC,7@!`52gI+=">
+                      <field name="COORD">x</field>
+                    </block>
+                  </value>
+                  <value name="Y">
+                    <block type="arHitPoint" id="x]n@7?nk9P.}kzva{G[R">
+                      <field name="COORD">y</field>
+                    </block>
+                  </value>
+                  <value name="Z">
+                    <block type="arHitPoint" id="tux[]q{EW:9.YwsYripm">
+                      <field name="COORD">z</field>
+                    </block>
+                  </value>
+                  <next>
+                    <block type="setObjDirection" id="):cTn8eJga*N1y(mpa!#">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml" usevectorslot="true"></mutation>
+                      <field name="POINT">TRUE</field>
+                      <field name="LOCK_UP">TRUE</field>
+                      <value name="TARGETOBJ">
+                        <shadow type="objectList" id="j|CD_JKj,rR(CG*yU=[F">
+                          <field name="FIELDNAME">Camera</field>
+                        </shadow>
+                      </value>
+                      <value name="USE_VECTOR">
+                        <block type="getObjTransform" id="+6[In;g@I%9#*D6qpZYK">
+                          <mutation xmlns="http://www.w3.org/1999/xhtml" useworldspace="false"></mutation>
+                          <field name="MODE">position</field>
+                          <field name="COORD">xyz</field>
+                          <value name="TARGETOBJ">
+                            <shadow type="objectList" id="h#r1OVt^;Q3+2$kq}3?Z">
+                              <field name="FIELDNAME">Camera</field>
+                            </shadow>
+                          </value>
+                        </block>
+                      </value>
+                      <next>
+                        <block type="hide" id="7M11MsJPwMC=]n)65!IJ">
+                          <value name="VALUE">
+                            <shadow type="objectList" id="@8hAM,-2H)a:m|Zap;Yc">
+                              <field name="FIELDNAME">&lt;none&gt;</field>
+                            </shadow>
+                            <block type="lists_create_with" id="nOAnxU3Xb^gAJ?,q-wvk">
+                              <mutation items="6"></mutation>
+                              <value name="ADD0">
+                                <block type="objectList" id="=[;fyFG3mv=w|/^_V0Rc">
+                                  <field name="FIELDNAME">drag_move</field>
+                                </block>
+                              </value>
+                              <value name="ADD1">
+                                <block type="objectList" id="07tVB%zrAH(@*Rlq-UrR">
+                                  <field name="FIELDNAME">drag_scale</field>
+                                </block>
+                              </value>
+                              <value name="ADD2">
+                                <block type="objectList" id="I2I+LvFRd8Bcm1/o=|lQ">
+                                  <field name="FIELDNAME">drag_rotate</field>
+                                </block>
+                              </value>
+                              <value name="ADD3">
+                                <block type="objectList" id="pC,f?o@hJoDH:{Rff*_V">
+                                  <field name="FIELDNAME">scale_percentage</field>
+                                </block>
+                              </value>
+                              <value name="ADD4">
+                                <block type="objectList" id=":;*U2h-Y[89s?TIP9fkD">
+                                  <field name="FIELDNAME">edit_button</field>
+                                </block>
+                              </value>
+                              <value name="ADD5">
+                                <block type="objectList" id=".7j*|8N3]v]f5eS+vpCr">
+                                  <field name="FIELDNAME">ready_button</field>
+                                </block>
+                              </value>
+                            </block>
+                          </value>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="procedures_defnoreturn" id="0l`uXTnS^F5*a(EDey~`" x="190" y="1690">
+      <mutation>
+        <arg name="id" varid=":`d+Zbw{OwHGUi-vXPx:"></arg>
+      </mutation>
+      <field name="NAME">show warning</field>
+      <comment pinned="false" h="80" w="160">Describe this function...</comment>
+      <statement name="STACK">
+        <block type="setHTMLElemStyle" id="7}m?!vrk+7[x+~,ZcB`d">
+          <field name="PROPERTY">display</field>
+          <field name="PARENT">FALSE</field>
+          <value name="VALUE">
+            <shadow type="displayDropdown" id="|b-1W[2aOJJ6x)rFh$yA">
+              <field name="TEXT">block</field>
+            </shadow>
+          </value>
+          <value name="ID">
+            <shadow type="text" id="7MJV-iry4WLOI12$9g8#">
+              <field name="TEXT">warning_center</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="setHTMLElemStyle" id="pQMnX01}~Gz#W]#_5vA%">
+              <field name="PROPERTY">display</field>
+              <field name="PARENT">FALSE</field>
+              <value name="VALUE">
+                <shadow type="displayDropdown" id="CN{]V6{]h@Q7,2u)ZmtL">
+                  <field name="TEXT">block</field>
+                </shadow>
+              </value>
+              <value name="ID">
+                <shadow type="text" id="!MO{:1@ee)LtgL[0?Y8C">
+                  <field name="TEXT">id</field>
+                </shadow>
+                <block type="variables_get" id="nL,%7GG73rI5}![gBJsM">
+                  <field name="VAR" id=":`d+Zbw{OwHGUi-vXPx:">id</field>
+                </block>
+              </value>
+              <next>
+                <block type="setTimeout" id="CRWZ%Vt7J4Z:S=:@C14u">
+                  <value name="VALUE">
+                    <shadow type="math_number" id=";g5bJ9ui-|I%A2=[G(L0">
+                      <field name="NUM">3</field>
+                    </shadow>
+                  </value>
+                  <statement name="DO">
+                    <block type="setHTMLElemStyle" id="Yvv}PKq^-6L/JMCbt#GR">
+                      <field name="PROPERTY">display</field>
+                      <field name="PARENT">FALSE</field>
+                      <value name="VALUE">
+                        <shadow type="displayDropdown" id="B-!wmAL:3[ksxfhy?5MW">
+                          <field name="TEXT">none</field>
+                        </shadow>
+                      </value>
+                      <value name="ID">
+                        <shadow type="text" id="oVOtcZ@QESQuDwR^v`,d">
+                          <field name="TEXT">warning_center</field>
+                        </shadow>
+                      </value>
+                      <next>
+                        <block type="setHTMLElemStyle" id="-WB]qf3RXqL{Z$}t4=+|">
+                          <field name="PROPERTY">display</field>
+                          <field name="PARENT">FALSE</field>
+                          <value name="VALUE">
+                            <shadow type="displayDropdown" id="z(HXIR_I%Si[{(M~x6XK">
+                              <field name="TEXT">none</field>
+                            </shadow>
+                          </value>
+                          <value name="ID">
+                            <shadow type="text" id="2to6L^}IVD$h5]1.wLtm">
+                              <field name="TEXT">id</field>
+                            </shadow>
+                            <block type="variables_get" id="`}B_pPEx-xXE{n:^J?A]">
+                              <field name="VAR" id=":`d+Zbw{OwHGUi-vXPx:">id</field>
+                            </block>
+                          </value>
+                        </block>
+                      </next>
+                    </block>
+                  </statement>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <tab name="Edit_model" type="CommonTab" active="false" scrollx="-155.85617065429665" scrolly="-90" scale="1">
+    <variables xmlns="https://developers.google.com/blockly/xml">
+      <variable id=".sF5MDQu8PF^c]5K~da7">mode</variable>
+    </variables>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="IH?BNsA/9:uuQ_Tz#G3R" inline="false" x="290" y="90">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="YRi)KvW^p5y1cINe$Y#I">
+          <field name="FIELDNAME">edit_button</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="setTimeout" id=".QujJ9Y7.K/U%1KmW^V1">
+          <value name="VALUE">
+            <shadow type="math_number" id="~}Pn:(aie7NjUL,FxSPf">
+              <field name="NUM">0.1</field>
+            </shadow>
+          </value>
+          <statement name="DO">
+            <block type="hide" id="(S{;uBZH%2#8+gvP1dF^">
+              <value name="VALUE">
+                <shadow type="objectList" id="Zg](@idSStkrn6.ovI,6">
+                  <field name="FIELDNAME">edit_button</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="show" id="%fe3M?eLcUomGd@zr29Y">
+                  <value name="VALUE">
+                    <shadow type="objectList" id="qFsPg!sK=7xGbKESeQMx">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                    <block type="lists_create_with" id="gQ]~3lV8#iOt:$38My~1">
+                      <mutation items="5"></mutation>
+                      <value name="ADD0">
+                        <block type="objectList" id="5=vYH((btddInf}bUq/4">
+                          <field name="FIELDNAME">drag_move</field>
+                        </block>
+                      </value>
+                      <value name="ADD1">
+                        <block type="objectList" id="Nlubu2Q)S9K!CHMF@67V">
+                          <field name="FIELDNAME">drag_scale</field>
+                        </block>
+                      </value>
+                      <value name="ADD2">
+                        <block type="objectList" id=":~egJj{j;*o|IJgdSH^^">
+                          <field name="FIELDNAME">drag_rotate</field>
+                        </block>
+                      </value>
+                      <value name="ADD3">
+                        <block type="objectList" id="B]5*V@tL[*Y/}`3qp#oE">
+                          <field name="FIELDNAME">scale_percentage</field>
+                        </block>
+                      </value>
+                      <value name="ADD4">
+                        <block type="objectList" id="e-,X=8hZ.tCx5h0V#F;?">
+                          <field name="FIELDNAME">ready_button</field>
+                        </block>
+                      </value>
+                    </block>
+                  </value>
+                  <next>
+                    <block type="variables_set" id="jd6$RG5%PUdx2?hm%S:a">
+                      <field name="VAR" id=".sF5MDQu8PF^c]5K~da7">mode</field>
+                      <value name="VALUE">
+                        <block type="text" id="!buCa$gGWy(fg$RR}0}b">
+                          <field name="TEXT">edit</field>
+                        </block>
+                      </value>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </statement>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="oCI;!CvsKOUk|P[B8i7z" inline="false" x="850" y="130">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="hl,btRv0Xu8^qC9#:cJ4">
+          <field name="FIELDNAME">ready_button</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="setTimeout" id="YFXnqC}f:ka{e:GLxaQ7">
+          <value name="VALUE">
+            <shadow type="math_number" id="O-)*%Tfh9g_r0G#kuHh3">
+              <field name="NUM">0.1</field>
+            </shadow>
+          </value>
+          <statement name="DO">
+            <block type="show" id=";}[SkqgHtC%N3XTzCbuj">
+              <value name="VALUE">
+                <shadow type="objectList" id="t}eFi81di#yAN_m[=PX2">
+                  <field name="FIELDNAME">edit_button</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="hide" id=".W/(/j#1T4{@Pi|g.-]=">
+                  <value name="VALUE">
+                    <shadow type="objectList" id="}lT^YFC2yB2I1zFZTNS~">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                    <block type="lists_create_with" id="I}{(-r[rWOSKc;bux~(}">
+                      <mutation items="5"></mutation>
+                      <value name="ADD0">
+                        <block type="objectList" id="HV/_)(5r=B6/j/f)?]e:">
+                          <field name="FIELDNAME">drag_move</field>
+                        </block>
+                      </value>
+                      <value name="ADD1">
+                        <block type="objectList" id="GX-CRiQ^cppm7B.w1r*(">
+                          <field name="FIELDNAME">drag_scale</field>
+                        </block>
+                      </value>
+                      <value name="ADD2">
+                        <block type="objectList" id="8!~%-mLyp(=HuEE4-h0V">
+                          <field name="FIELDNAME">drag_rotate</field>
+                        </block>
+                      </value>
+                      <value name="ADD3">
+                        <block type="objectList" id="{L=Q#7K}LK$s[LD_4?g#">
+                          <field name="FIELDNAME">scale_percentage</field>
+                        </block>
+                      </value>
+                      <value name="ADD4">
+                        <block type="objectList" id="rl(3^drP[Ud2LR2mAC9!">
+                          <field name="FIELDNAME">ready_button</field>
+                        </block>
+                      </value>
+                    </block>
+                  </value>
+                  <next>
+                    <block type="show" id="n-R4gNtYg7tKNu)E#;u?">
+                      <value name="VALUE">
+                        <shadow type="objectList" id="6nohVWqa8=3WQp_;aa.C">
+                          <field name="FIELDNAME">&lt;none&gt;</field>
+                        </shadow>
+                        <block type="groupList" id="~R1]*%xlT}kvXT#Jx:a$">
+                          <field name="FIELDNAME">indicator_group</field>
+                        </block>
+                      </value>
+                      <next>
+                        <block type="hide" id="m4ie9aE0-WPOvro-{(t(">
+                          <value name="VALUE">
+                            <shadow type="objectList" id="LWBBhKh=10$nR1$`g))g">
+                              <field name="FIELDNAME">&lt;none&gt;</field>
+                            </shadow>
+                            <block type="groupList" id="2XN+NRaE!P?s~c+9O?`?">
+                              <field name="FIELDNAME">ranbhir_group</field>
+                            </block>
+                          </value>
+                          <next>
+                            <block type="variables_set" id="=`}!hR!1BM}uu^9,`LRe">
+                              <field name="VAR" id=".sF5MDQu8PF^c]5K~da7">mode</field>
+                              <value name="VALUE">
+                                <block type="text" id="t(T}Q?@J!i{{~4t/hiyO">
+                                  <field name="TEXT">indicator</field>
+                                </block>
+                              </value>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </statement>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenDraggedOver" id="lY2l[w*Z:a)B}5I9yW[Y" x="310" y="390">
+      <field name="X_RAY">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="XwoNn=_uI@AiO}Qfq,n3">
+          <field name="FIELDNAME">drag_move</field>
+        </shadow>
+      </value>
+      <statement name="DO_MOVE">
+        <block type="dragMoveAdv" id="ZDS}L3Cw5;dR;|!w`0/6">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" enablespace="false"></mutation>
+          <field name="MODE">XY</field>
+          <field name="SPACE_TYPE">WORLD</field>
+          <value name="TARGETOBJ">
+            <shadow type="objectList" id="lVOz(/4?S,^gZEGAw!Du">
+              <field name="FIELDNAME">ranbhir_mesh</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenDraggedOver" id="Q1|bZV0fi^QD]gUIv}+6" x="290" y="490">
+      <field name="X_RAY">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="J$JkNWm)7P6{]H*WEGdw">
+          <field name="FIELDNAME">drag_rotate</field>
+        </shadow>
+      </value>
+      <statement name="DO_MOVE">
+        <block type="dragRotateAdv" id="d`yeT+m3.N*1),1pO)k)">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" enablespace="false"></mutation>
+          <field name="AXIS">Z</field>
+          <field name="SPACE_TYPE">WORLD</field>
+          <value name="TARGETOBJ">
+            <shadow type="objectList" id="g7)71;D5ubWu{+L4@D%v">
+              <field name="FIELDNAME">ranbhir_mesh</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenDraggedOver" id="PzY!TT8y,K](otd%km1i" x="290" y="610">
+      <field name="X_RAY">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="M1P#4hJG_WFEGCiMPCk8">
+          <field name="FIELDNAME">drag_scale</field>
+        </shadow>
+      </value>
+      <statement name="DO_MOVE">
+        <block type="dragScale" id="R}CW)PE428@,[{12gnWy">
+          <field name="AXIS">Z</field>
+          <value name="TARGETOBJ">
+            <shadow type="objectList" id="RfQE8^/XxxBhNb:Yk~U=">
+              <field name="FIELDNAME">ranbhir_mesh</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="dragScale" id="(8.dN+E*RDwxT[u:FVFw">
+              <field name="AXIS">X</field>
+              <value name="TARGETOBJ">
+                <shadow type="objectList" id="cd5j{Xs2)[u4sK-!~%9q">
+                  <field name="FIELDNAME">ranbhir_mesh</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="dragScale" id="6M?[8Anl@yA:C[/{C]v{">
+                  <field name="AXIS">Y</field>
+                  <value name="TARGETOBJ">
+                    <shadow type="objectList" id=",_gZI5)u%(clBrke^[00">
+                      <field name="FIELDNAME">ranbhir_mesh</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="updateTextObject" id="W?$U=%cI=NgGFg4h9M^U">
+                      <value name="VALUE1">
+                        <shadow type="objectList" id="R^8nIM%|9Wc$`Zz8IZ#M">
+                          <field name="FIELDNAME">scale_percentage</field>
+                        </shadow>
+                      </value>
+                      <value name="VALUE2">
+                        <shadow type="text" id="f-NvmjZ.V2{{}o4)y(^f">
+                          <field name="TEXT">Hello, Verge!</field>
+                        </shadow>
+                        <block type="text_join" id="JdGARLCKwPTK[;UU81#N">
+                          <mutation items="2"></mutation>
+                          <value name="ADD0">
+                            <block type="math_round" id="Znh(26vJVe`hq:RLt_yD">
+                              <field name="OP">ROUND</field>
+                              <value name="NUM">
+                                <shadow type="math_number" id="=8ccIJ_(O8?IA?f84^L|">
+                                  <field name="NUM">2.5</field>
+                                </shadow>
+                                <block type="math_arithmetic" id="y~hJKq`@xI.ek;w65)!p">
+                                  <field name="OP">MULTIPLY</field>
+                                  <value name="A">
+                                    <shadow type="math_number" id="E146rv?ziQ2LO0fAwDy_">
+                                      <field name="NUM">2</field>
+                                    </shadow>
+                                    <block type="toFixedPoint" id="k2UHG{)pWdYF*Gl$wptX">
+                                      <value name="VALUE">
+                                        <block type="getObjTransform" id="G|BEbGJ34{[G|?#eZXTH">
+                                          <mutation xmlns="http://www.w3.org/1999/xhtml" useworldspace="false"></mutation>
+                                          <field name="MODE">scale</field>
+                                          <field name="COORD">z</field>
+                                          <value name="TARGETOBJ">
+                                            <shadow type="objectList" id="_}mLmv7.E~Qx|})iR|?b">
+                                              <field name="FIELDNAME">ranbhir_mesh</field>
+                                            </shadow>
+                                          </value>
+                                        </block>
+                                      </value>
+                                      <value name="PRECISION">
+                                        <shadow type="math_number" id="^b@H^bW!cEFUa{5|yyZ1">
+                                          <field name="NUM">2</field>
+                                        </shadow>
+                                      </value>
+                                    </block>
+                                  </value>
+                                  <value name="B">
+                                    <shadow type="math_number" id="{?MZR[b+C=`/`A{8%!Hz">
+                                      <field name="NUM">100</field>
+                                    </shadow>
+                                  </value>
+                                </block>
+                              </value>
+                            </block>
+                          </value>
+                          <value name="ADD1">
+                            <block type="text" id="6=`66sbmfqm9a@)B0383">
+                              <field name="TEXT">%</field>
+                            </block>
+                          </value>
+                        </block>
+                      </value>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="1123.727294921875" viewport-y="77.36366271972656" viewport-w="697.997" viewport-h="438.807" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
